@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+    <title>룰렛이벤트</title>
+    <link rel="stylesheet" href="../assets/css/mobile/event.css">
+    <link rel="stylesheet" href="../assets/css/mobile/main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+</head>
+
+<body style="margin: 0; padding: 0; line-height: 0;">
+    <div class="event-cow-wrap">
+        <div class="event-wrap roulette-posi">
+            <div class="rullet-event">
+                <div class="roulette-container rou2" style="padding: 0;">
+                    <img src="/assets/image/mobile/event/roulette/roulette_03/web01.jpg" alt="" style="width: 100%;"/>
+                    <div style="display: flex;">
+                        <a href="https://play.google.com/store/apps/details?id=kr.co.hongcafe.mobile" traget="_blank" style="display: inline-block; width: 50%;"><img src="/assets/image/mobile/event/roulette/roulette_03/web02a.jpg" style="width:100%;"/></a>
+                        <a href="https://apps.apple.com/us/app/%ED%99%8D%EC%B9%B4%ED%8E%98/id1463346817?l=ko&ls=1" traget="_blank" style="display: inline-block; width: 50%;"><img src="/assets/image/mobile/event/roulette/roulette_03/web02b.jpg" style="width:100%;"/></a>
+                    </div>
+                    <img src="/assets/image/mobile/event/roulette/roulette_03/web03.jpg" alt="" style="width:100%;"/>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        $(document).on('click', '.change-btn', function () {
+            $('.popup-bg').css('display', 'block');
+            $('.sowon').css('display', 'none');
+            $('.coupon').css('display', 'block');
+            $('.ex').css('display', 'none');
+        })
+
+        $(document).on('click', '.c-con', function () {
+            $('.popup-bg').css('display', 'none');
+        })
+        $(document).on('click', '.bg', function () {
+            $('.popup-bg').css('display', 'none');
+        })
+
+
+        $(document).on('click', '.start-btn', function(){
+            $('.pop-up-layout').css('display',' block');
+        })
+        $(document).on('click', '.close-popup', function () {
+            $('.pop-up-layout').css('display','none');
+        })
+    </script>
+
+</body>
+
+</html>

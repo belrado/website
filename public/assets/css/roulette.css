@@ -1,0 +1,775 @@
+/* spring_roulette css */
+.wrapper-rullet, .inner-box-rullet, .rullet-background{
+    height: 100%;
+}
+.wrapper-rullet {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.rullet-background {
+    background: url('/assets/mobile/image/event/summer_bg.png') no-repeat center;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+    height: 640px;
+}
+.rullet-event-text img {
+    height: 91px;
+    display: block;
+    margin: 0 auto;
+}
+.rullet-event-text .app-text {
+    padding: 6px 0 15px 0;
+    font-size: 15px;
+    letter-spacing: -0.45px;
+    text-align: center;
+    color: #222222;
+}
+.rullet-event-text .app-text strong {
+    color: #ff406d;
+}
+.rullet-background {
+    position: relative;
+    padding-bottom: 40px;
+}
+.rullet-background .rullet-event .rullet-btl-content {
+    padding: 23px 0 20px 0;
+}
+.rullet-background .rullet-event .rullet-btl {
+    width: 170px;
+    border: solid 3px #ff406d;
+    background: #fff;
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.rullet-background .rullet-event .rullet-btl strong {
+    color: #ff406d;
+}
+.rullet-background .rullet-event .rullet-btl p {
+    font-size: 16px;
+    padding: 8px 0 10px 18px;
+}
+.rullet-background .text-sub strong {
+    font-size: 11px;
+    font-weight: bold;
+    color: #ff406d;
+}
+.rullet-background .text-sub {
+    font-size: 11px;
+    line-height: 1.55;
+    text-align: center;
+    color: #333;
+}
+.rullet-background .text-sub .text-pd {
+    padding-top: 10px;
+}
+.rullet-cloud-img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.rullet-text-sub {
+    position: relative;
+    z-index: 2;
+}
+.rullet-background .rullet-cloud-img img {
+    width: 100%;
+    display: block;
+}
+/* rullet content 영역 */
+.event-content-text strong {
+    font-weight: bold;
+    color: #ff406d;
+    font-size: 14px;
+}
+
+.list-text-dot > li::before {
+    position: absolute;
+    left: 0;
+    top: 7px;
+    content: '';
+    width: 2px;
+    height: 2px;
+    background: #333;
+}
+.list-text-dot > li {
+    padding: 0 0 0 8px;
+}
+.list-text-style > li {
+    list-style: none;
+    position: relative;
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.58;
+    letter-spacing: -0.36px;
+    color: #333;
+    margin: 0 0 6px 0px;
+}
+.event-content-text li {
+    list-style: none;
+}
+.event-content-text .list-title {
+    padding-bottom: 10px;
+    padding-left: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.45;
+    letter-spacing: -0.6px;
+    text-align-last: left;
+    color: #222222;
+}
+.event-content-text .list-content-text {
+    padding-left: 16px;
+}
+.event-content-text .list-content-text li {
+    padding-bottom: 16px;
+    font-size: 14px;
+    line-height: 1.36;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #222222;
+}
+.event-content-text .list-text-dot {
+    padding-left: 16px;
+}
+.event-content-text .number-icon {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #ff406d;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: -0.39px;
+}
+.event-content-text .list-content-text .list-text {
+    padding-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.event-content-text .list-content-text .number-mb5 {
+    margin-bottom: 4px;
+}
+/* footer img */
+.rullet-footer-img {
+    padding: 30px 0 40px 0;
+}
+.rullet-footer-img img {
+    height: 62px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* summer_rullet_event */
+.rullet-bottom-img img{
+    width: 100%;
+}
+.wrapper-rullet-summer, .inner-box-rullet-summer, .rullet-background-summer  {
+    height: 100%;
+}
+.wrapper-rullet-summer {
+    margin: 0;
+    padding: 0;
+}
+.rullet-background {
+    padding-top:50px;
+    background: url('/assets/image/mobile/event/rullet_top.png') no-repeat center;
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+}
+.rullet-event-text-summer img {
+    height: 104px;
+    display: block;
+    margin: 0 auto;
+}
+.top-desc-text{
+    width: 100%;
+    text-align: center;
+    height: 140px;
+}
+.top-desc-text p{
+    font-size: 12.5px;
+    line-height: 1.44;
+    letter-spacing: -0.31px;
+    color: #876405;
+}
+.rullet-event-summer img{
+    height: 278px;
+    display: block;
+    margin: 0 auto;
+}
+.rullet-background-summer .rullet-event-summer .rullet-btl-content-summer {
+    padding: 23px 0 12px 0;
+}
+.rullet-background-summer .rullet-event-summer .rullet-btl-summer {
+    width: 215px;
+    height: 41px;
+    border: solid 3px #2962ff;
+    background: #fff;
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.rullet-background-summer .rullet-event-summer .rullet-btl-summer .btl-text-summer {
+    font-size: 15px;
+    padding: 11px 0 10px 18px;
+    color: #2962ff;
+    font-weight: bold;
+    line-height: 2;
+}
+.rullet-background-summer .rullet-event-summer .rullet-btl-summer
+.btl-text-summer img {
+    width: 8px;
+    height: 12px;
+    display: inline-block;
+}
+.rullet-background-summer .text-sub-summer strong {
+    font-size: 11px;
+    font-weight: bold;
+    color: #ff406d;
+}
+.rullet-background-summer .text-sub-summer {
+    font-size: 11px;
+    line-height: 1.55;
+    text-align: center;
+    color: #333;
+}
+.rullet-background-summer .text-sub-summer .text-pd-summer {
+    padding-top: 10px;
+}
+.rullet-cloud-img-summer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.rullet-text-sub-summer {
+    position: relative;
+    z-index: 2;
+}
+.rullet-background-summer .rullet-cloud-img-summer img {
+    width: 100%;
+    display: block;
+}
+/* roulette css */
+@keyframes rouletteAutoRotate {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(-180deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+@-webkit-keyframes rouletteAutoRotate {
+    0% {
+        -webkit-transform: rotate(0);
+    }
+    50% {
+        -webkit-transform: rotate(-180deg);
+    }
+    100% {
+        -webkit-transform: rotate(-360deg);
+    }
+}
+@-moz-keyframes rouletteAutoRotate {
+    0% {
+        -moz-transform: rotate(0);
+    }
+    50% {
+        -moz-transform: rotate(-180deg);
+    }
+    100% {
+        -moz-transform: rotate(-360deg);
+    }
+}
+@-ms-keyframes rouletteAutoRotate {
+    0% {
+        -ms-transform: rotate(0);
+    }
+    50% {
+        -ms-transform: rotate(-180deg);
+    }
+    100% {
+        -ms-transform: rotate(-360deg);
+    }
+}
+.roulette-container{
+    position: relative;
+    padding: 25px 0 2px 0;
+}
+.roulette-box{
+    position: relative;
+    width:286px;
+    height:286px;
+    padding:8px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+.roulette-box .roulette-layer{
+    padding: 8px;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+.roulette-box::after{
+    width: 280px;
+    height: 50px;
+    position: absolute;
+    left:0;
+    bottom:-25px;
+    background: url(/assets/image/mobile/event/roulette/Shadow.png) no-repeat -10px center;
+    background-size: 100%;
+    content:'';
+    z-index:1;
+}
+.roulette-box .roulette{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    position: relative;
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    z-index:2;
+    box-sizing: content-box;
+    background:#fff;
+}
+.roulette-box .roulette:after{
+    width: 286px;
+    height:286px;
+    border-radius: 50%;
+    position:absolute;
+    left: -8px;
+    top: -8px;
+    background:url(/assets/image/mobile/event/roulette/Rullet_edge.png) no-repeat center center;
+    background-size: 100% 100%;
+    content:"";
+    z-index:10;
+}
+.roulette-box .roulette.setani{
+    -ms-animation: rouletteAutoRotate 0.054s linear  infinite;
+    -webkit-animation: rouletteAutoRotate 0.054s linear  infinite;
+    -moz-animation: rouletteAutoRotate 0.054s linear  infinite;
+    animation: rouletteAutoRotate 0.054s linear  infinite;
+}
+.roulette-box .roulette.run {
+    -ms-transition: transform 8s cubic-bezier(0.110, 0.810, 0.120, 1.024);
+    -webkit-transition: transform 8s cubic-bezier(0.110, 0.810, 0.120, 1.024);
+    -moz-transition: transform 8s cubic-bezier(0.110, 0.810, 0.120, 1.024);
+    transition: transform 8s cubic-bezier(0.110, 0.810, 0.120, 1.024);
+}
+.roulette-box .win-arrow{
+    position: absolute;
+    top:-25px;
+    left: 50%;
+    width: 36px;
+    height: 50px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background:url(/assets/image/mobile/event/roulette/pin.png) no-repeat center top;
+    background-size: 100%;
+    z-index:10;
+}
+.roulette-box .start-btn{
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -38px 0 0 -38px;
+    z-index:11;
+    border-radius: 50%;
+    border: 0 none;
+    background: url(/assets/image/mobile/event/roulette/btn_start.png) no-repeat center center;
+    background-size: 70px;
+    background-color:rgba(255, 255, 255, .6);
+    overflow: hidden;
+    text-indent:-999px;
+    font-size: 0px;
+    outline: none;
+}
+.roulette-box .rabbit-box {
+    width: 74px;
+    height: 84px;
+    position: absolute;
+    top:-22px;
+    left: 18px;
+    z-index: 1;
+    background: url(/assets/image/mobile/event/roulette/Rabbit.png) no-repeat center center;
+    background-size: 100%;
+}
+.roulette-box .text-box {
+    width: 63px;
+    position: absolute;
+    top:-10px;
+    right:-12px;
+    z-index:3
+}
+.roulette-box .text-box img {
+    width: 100%;
+    vertical-align: top;
+}
+.roulette-box .left-coin-box {
+    position: absolute;
+    left: 30px;
+    bottom: 8px;
+    width:50px;
+    height: 50px;
+    background: url(/assets/image/mobile/event/roulette/coin_left_back.png) no-repeat center center;
+    background-size: 100%;
+    z-index:1;
+}
+.roulette-box .right-coin-box {
+    position: absolute;
+    right: 21px;
+    bottom: -7px;
+    width:74px;
+    height: 76px;
+    background: url(/assets/image/mobile/event/roulette/coin_right_front.png) no-repeat center center;
+    background-size: 100%;
+    z-index:3;
+}
+.roulette-box .event-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-clip: rect(0px, 270px, 270px, 135px);
+    clip: rect(0px, 270px, 270px, 135px);
+    z-index:2;
+    overflow: hidden;
+}
+.roulette-box .event-content .event-text {
+    position: absolute;
+    left: -999px;
+    z-index: -1;
+    /*
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    z-index:11;
+    font-size:20px;
+    text-align:center;
+    transform: rotate(<?=($deg/2)?>deg);
+    */
+}
+.roulette-box .event-content::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-clip: rect(0px, 135px, 270px, 0px);
+    clip: rect(0px, 135px, 270px, 0px);
+    -webkit-transform: rotate(72deg);
+    transform: rotate(72deg);
+}
+.roulette-box .event-content::before{
+    font-size:30px;
+    font-weight: bold;
+    padding:40px 0 0 0;
+    height: 230px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    -webkit-transform: rotate(36deg);
+    transform: rotate(36deg);
+    z-index:2;
+    color:#222;
+    background:url(/assets/image/mobile/event/roulette/text_300.png) no-repeat center 30px;
+    background-size: 24%;
+}
+.roulette-box .event-content1::after{
+    background:#ffd7e7;
+    z-index:1
+}
+.roulette-box .event-content1::before{
+    content:'';
+}
+.roulette-box .event-content2::after{
+    background:#ffeef4;
+}
+.roulette-box .event-content2::before{
+    background-image:url(/assets/image/mobile/event/roulette/text_1000.png);
+    content:'';
+}
+.roulette-box .event-content3::after{
+    background:#ffd7e7;
+}
+.roulette-box .event-content3::before{
+    background-image:url(/assets/image/mobile/event/roulette/text_5000.png);
+    content:'';
+}
+.roulette-box .event-content4::after{
+    background:#ffeef4;
+}
+.roulette-box .event-content4::before{
+    background-image:url(/assets/image/mobile/event/roulette/text_100000.png);
+    content:'';
+}
+.roulette-box .event-content5::after{
+    background:#8702c4;
+}
+.roulette-box .event-content5::before{
+    background-image:url(/assets/image/mobile/event/roulette/text_500000.png);
+    content:'';
+}
+
+.roulette-box:nth-child(even) .event-content::after {
+
+}
+/* pop-up css */
+.roulette-container .pop-up-layout{
+    width: 220px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 20;
+    -webkit-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+    opacity: 0;
+    -webkit-transition: opacity .35s, transform .35s;
+    transition: opacity .35s, transform .35s;
+}
+.roulette-container .pop-up-layout.show{
+    transition: opacity .35s, transform .35s;
+    opacity: 1;
+    transform: translate(-50%, -45%);
+}
+.roulette-container .pop-up-content{
+    width: 100%;
+    padding:40px 10px 30px 10px;
+    border: solid 4px #e2e2e2;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 0 rgba(0, 0, 0, .12);
+    background-color: #ffffff;
+}
+.roulette-container .pop-up-cancel-btl{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    background: url(/assets/image/mobile/icon/btn_cancel_black10.png) no-repeat center center;
+    background-size: 60%;
+    overflow: hidden;
+    font-size: 0px;
+}
+.roulette-container .pop-up-layout .pop-up-content .text-area strong{
+    color: #ff406d;
+    font-weight: bold;
+}
+.roulette-container .pop-up-layout .pop-up-content{
+    text-align: right;
+}
+.roulette-container .pop-up-content img{
+    text-align: right;
+    width: 20px;
+    height: 20px;
+}
+.roulette-container .pop-up-content .text-area{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.roulette-container .pop-up-content .pop-up-btl-layout a{
+    padding: 9px 0px 11px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    border: solid 2px #ff406d;
+    border-radius: 22px;
+    color: #ff406d;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    max-width: 180px;
+    margin: 10px auto auto auto;
+}
+.roulette-container .pop-up-content .pop-up-btl-layout a :nth-last-child(1){
+    margin: 0;
+}
+
+/* 룰렛 */
+.roulette-posi{
+    position: relative;
+}
+.roulette_div{
+    /* width: 77.7%; */
+    /* height: 324px; */
+    width: 296px;
+    height: 296px;
+    border: 1px solid;
+    height: auto;
+    position: absolute;
+    top: 28vh;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+.roulette-box .roulette.bg:after{
+    background: url(/assets/image/mobile/event/roulette/roulette_03/edge.png) no-repeat center center;
+    background-size: 100% 100%;
+    height: 296px;
+    /* position: relative; */
+}
+.roulette-bg{
+    /* background: url(/assets/image/mobile/event/roulette/roulette_03/edge.png)no-repeat; */
+    background-size: 100%;
+    height: 296px;
+    position: relative;
+}
+.roulette-top{
+    position: absolute;
+    top: -3vh;
+    width: 10vw;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    z-index: 3;
+}
+.roulette-text{
+    text-align: center;
+    font-size: 8vw;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    margin-top: 30px;
+    background:#fff;
+    border-radius:4px;
+}
+.roulette-100pro{
+    position: absolute;
+    top: -5px;
+    right: -15px;
+    width: 17vw;
+}
+.roulette-box.rou2 .roulette-gray{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 40%;
+}
+.roulette-start{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.roulette-box.rou2{
+    position: absolute;
+    top: 23.5vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.roulette-box.rou2 .roulette-layer{
+    position: relative;
+    width: 280px;
+    height: 280px;
+}
+.roulette-box.rou2::after{
+    background: transparent;
+}
+.roulette-box.rou2 .roulette:after{
+    background: url(/assets/image/mobile/event/roulette/roulette_03/edge.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 0;
+    top: 0;
+}
+.roulette-box.rou2 .event-content::before{
+    background: url(/assets/image/mobile/event/roulette/roulette_03/text_300.png) no-repeat center 30px;
+    background-size: 22%;
+}
+.roulette-box.rou2 .event-content2::before {
+    background-image: url(/assets/image/mobile/event/roulette/roulette_03/text_1000.png);
+    background-size: 26%;
+}
+.roulette-box.rou2 .event-content3::before {
+    background-image: url(/assets/image/mobile/event/roulette/roulette_03/text_5000.png);
+    background-size: 26%;
+}
+.roulette-box.rou2 .event-content4::before {
+    background-image: url(/assets/image/mobile/event/roulette/roulette_03/text_50000.png);
+    background-size: 18%;
+}
+.roulette-box.rou2 .event-content5::before {
+    background-image: url(/assets/image/mobile/event/roulette/roulette_03/text_100000.png);
+    background-size: 22%;
+}
+.roulette-box.rou2 .event-content1::after {
+    background: #d2eeff;
+}
+.roulette-box.rou2 .event-content2::after {
+    background: #ffffff;
+    background: #ffffff;
+}
+.roulette-box.rou2 .event-content3::after {
+    background: #d2eeff;
+}
+.roulette-box.rou2 .event-content4::after {
+    background: #ffffff;
+}
+.roulette-box.rou2 .event-content5::after {
+    background: #1071ff;
+}
+.roulette-box .event-content:nth-child(1) {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.roulette-box .event-content:nth-child(2) {
+    -webkit-transform: rotate(72deg);
+    transform: rotate(72deg);
+}
+.roulette-box .event-content:nth-child(3) {
+    -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
+}
+.roulette-box .event-content:nth-child(4) {
+    -webkit-transform: rotate(216deg);
+    transform: rotate(216deg);
+}
+.roulette-box .event-content:nth-child(5) {
+    -webkit-transform: rotate(288deg);
+    transform: rotate(288deg);
+}
+.roulette-box.rou2 .start-btn{
+    background: url(/assets/image/mobile/event/roulette/roulette_03/btn_start.png) no-repeat center center;
+    background-size: 100%;
+    transform: translate(-44%, -43%);
+    top: 50%;
+    left: 50%;
+    margin: 0;
+}
+.roulette-container.rou2 .pop-up-layout{
+    top: 10%;
+}
+.roulette-container.rou2 .pop-up-layout.show {
+    /* transform: translate(-51%, 25%); */
+    transform: translate(-50%, 25%);
+}
+.roulette-container.rou2 .pop-up-content .pop-up-btl-layout a{
+    text-decoration: none;
+}
+.roulette-container.rou2 .pop-up-content .pop-up-btl-layout a.active{
+    background: #ff406d;
+    color: white;
+}

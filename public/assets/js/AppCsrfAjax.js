@@ -6,6 +6,7 @@ var AppCsrfAjax = function() {
     this.customLoading  = false;
     this.customLoadingRemove = false;
 };
+
 AppCsrfAjax.prototype = {
     generateCsrfToken: function() {
         function generateRandomString(length) {
